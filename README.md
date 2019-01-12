@@ -38,8 +38,8 @@ DEV.atFixBlock4.startBlock = 0
 DEV.P2P.NumBootstrapConnections = 1
 BRS.allowedBotHosts = *
 # Only use this Hosts if you really want to use the testnet!!!
-DEV.P2P.BootstrapPeers = 3.16.150.48; aya.onthewifi.com; testnet.burst.fun; testddns.gotdns.com; test-burst.megash.it
-DEV.P2P.rebroadcastTo = 3.16.150.48; aya.onthewifi.com; testnet.burst.fun; testddns.gotdns.com; test-burst.megash.it
+DEV.P2P.BootstrapPeers = 3.16.150.48; aya.onthewifi.com; testnet.burst.fun; testddns.gotdns.com; test-burst.megash.it; 144.217.93.166
+DEV.P2P.rebroadcastTo = 3.16.150.48; aya.onthewifi.com; testnet.burst.fun; testddns.gotdns.com; test-burst.megash.it; 144.217.93.166
 # Allow the wallet to discover new peers, store them in the DB and reuse them after restart.
 P2P.savePeers=true
 P2P.usePeersDb=true
